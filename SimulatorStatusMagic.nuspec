@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.iOS.SimulatorStatusMagic</id>
+    <version>2.4.1</version>
+    <title>Simulator Status Magic for Xamarin.iOS</title>
+    <authors>Runar Ovesen Hjerpbakk</authors>
+    <owners>Runar Ovesen Hjerpbakk</owners>
+    <licenseUrl>https://github.com/Sankra/SimulatorStatusMagicXamarinBindings/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Sankra/SimulatorStatusMagicXamarinBindings</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+    Modify the iOS Simulator so that it has a perfect status bar, then run your app and take perfect screenshots every time. The modifications made are designed to match the images you see on the Apple site and are as follows:
+
+    - 9:41 AM is displayed for the time.
+    - The battery is full and shows 100%.
+    - 5 bars of cellular signal and full WiFi bars are displayed.
+    - Tue Jan 9 is displayed for the date (iPad only)
+    </description>
+    <releaseNotes>Updated to work with iOS 12.</releaseNotes>
+    <copyright>© 2017-2019 Runar Ovesen Hjerpbakk</copyright>
+    <tags>Screenshots iOS Xamarin simulator dotnet</tags>
+  </metadata>
+  <files>
+    <file src="SimulatorStatusMagicBindings\bin\Release\SimulatorStatusMagicBindings.dll" target="lib\Xamarin.iOS10\SimulatorStatusMagicBindings.dll" />
+  </files>
+</package>
