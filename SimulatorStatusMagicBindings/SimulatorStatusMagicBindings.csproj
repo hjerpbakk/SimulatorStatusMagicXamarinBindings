@@ -9,6 +9,8 @@
     <RootNamespace>SimulatorStatusMagicBindings</RootNamespace>
     <AssemblyName>SimulatorStatusMagicBindings</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <ReleaseVersion>2.4.1</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
